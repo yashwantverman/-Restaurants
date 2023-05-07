@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 77vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+.zomatologo {
+    width: 185px;
+    height: 50px;
+}
+
+.zomatologo img {
+    padding: 0 25px;
+}
+
+main {
+    min-height: calc(100vh - 80px - 8vh);
+}
+
+.mainview {
+    display: flex;
+    margin: 25px;
+}
+
+.mainlogo {
+    height: auto;
+    width: auto;
+}
+
+.welcomeline {
+    display: flex;
+    direction: column;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 37px;
+}
+
+.welcomeline h1 {
+    text-align: center;
+    font-size: 100px;
+
+}
+
+.welcomeline p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.welcomeline span {
+    background-color: aqua;
+    width: 107px;
+    padding: 10px;
+    align-self: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.welcomeline button {
+    font-weight: 600;
+    width: 127px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.showbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0 10px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.same {
+    display: flex;
+    border: 2px solid #e8e1e0;
+    border-radius: 40px;
+    width: 25vw;
+}
+
+.same img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    padding: 20px;
+}
+
+.itemlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0px;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    
+}
+
+.item h1{
+    background-color: rgb(228, 77, 77);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: red;
+    color: black;
+    border: 1px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
